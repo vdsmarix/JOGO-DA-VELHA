@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.tabuleiro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linha {
+  display: flex;
+}
+
+.celula {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.celula:hover {
+  background-color: #ccc;
+}
